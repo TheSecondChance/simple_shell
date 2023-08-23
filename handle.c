@@ -2,7 +2,6 @@
 
 /**
  * _shell_puts_file - This for prints input fidels
- *
  * Return: fid not one for ewan
  */
 int _shell_puts_file(char *fidels, int shell_d)
@@ -22,7 +21,6 @@ int _shell_puts_file(char *fidels, int shell_d)
 
 /**
  * _shell_p_file - this for writes the character c
- *
  * Return: 1 this time for ewns
  */
 int _shell_p_file(char c, int shell_d)
@@ -42,7 +40,6 @@ int _shell_p_file(char c, int shell_d)
 
 /**
  * __error_puts - prints an input fidels to stderr
- *
  * Return: nothing this time ewns
  */
 void _shell_puts_error(char *fid)
@@ -59,7 +56,6 @@ void _shell_puts_error(char *fid)
 }
 /**
  * _shell_putchar_error - This for writes a character
- *
  * Return: 1 this time for ewns
  */
 int _shell_putchar_error(char c)
