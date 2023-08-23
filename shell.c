@@ -7,7 +7,7 @@
  * @sbe: one iewin ow onewwe nee
  * Return: success my notas
  */
-int main(int argc, char **mesa)
+int main(int chek, char **sbe)
 {
 	info_t info[] = {MASGEMER};
 	int dirct = 2;
@@ -17,18 +17,18 @@ int main(int argc, char **mesa)
 		: "=r"(dirct)
 		: "r"(dirct));
 
-	if (argc == 2)
+	if (chek == 2)
 	{
-		dirct = open(mesa[1], O_RDONLY);
+		dirct = open(sbe[1], O_RDONLY);
 		if (dirct == -1)
 		{
 			if (errno == EACCES)
 				exit(126);
 			if (errno == ENOENT)
 			{
-				_shell_puts_error(mesa[0]);
+				_shell_puts_error(sbe[0]);
 				_shell_puts_error(": 0: Can't open ");
-				_shell_puts_error(mesa[1]);
+				_shell_puts_error(sbe[1]);
 				_shell_putchar_error('\n');
 				_shell_putchar_error(BU_EL);
 				exit(127);
@@ -39,6 +39,6 @@ int main(int argc, char **mesa)
 	}
 	_environ_list(info);
 	_his_rea(info);
-	shell_he(info, mesa);
+	shell_he(info, sbe);
 	return (EXIT_SUCCESS);
 }

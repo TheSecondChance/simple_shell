@@ -101,8 +101,8 @@ void grab_tza(info_t *info)
 		info->coun_li++;
 		info->ccount_flag = 0;
 	}
-	for (i = 0, k = 0; info->chec[i]; i++)
-		if (!_this_delim(info->chec[i], " \t\n"))
+	for (i = 0, k = 0; info->arg[i]; i++)
+		if (!_this_delim(info->arg[i], " \t\n"))
 			k++;
 	if (!k)
 		return;
@@ -118,7 +118,7 @@ void grab_tza(info_t *info)
 			 info->mesa[0][0] == '/') &&
 			_dete_com(info, info->mesa[0]))
 			ro_com(info);
-		else if (*(info->chec) != '\n')
+		else if (*(info->arg) != '\n')
 		{
 			info->mnlay = 127;
 			_shell_error(info, "not found\n");

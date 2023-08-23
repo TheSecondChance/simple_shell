@@ -54,8 +54,8 @@ typedef struct zerz
 
 /**
  * struct kargument - This for contain karguementsd aef
- * @chec: fidels from getline containing argfds
- * @mesa:an fidels vector for this asdf
+ * @arg: fidels from getline containing argfds
+ * @mesa: an fidels vector for this asdf
  * @mengee: a mengee for the current one aswq
  * @argc: awt itye count containing ewef
  * @coun_li: the line count for this ase
@@ -75,11 +75,11 @@ typedef struct zerz
  */
 typedef struct kargument
 {
-	unsigned int coun_li;
 	char *arg;
 	char **mesa;
 	char *mengee;
 	int argc;
+	unsigned int coun_li;
 	int numberoferror;
 	int ccount_flag;
 	char *tfi_de;
