@@ -2,7 +2,6 @@
 
 /**
  * main - This for entry point
- *
  * @chek: my onew;onvone
  * @sbe: one iewin ow onewwe nee
  * Return: success my notas
