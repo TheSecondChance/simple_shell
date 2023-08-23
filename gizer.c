@@ -2,10 +2,8 @@
 
 /**
  * _tok - This for splits fidels into words
- *
  * @str: onw one oow qqwe nwq
  * @on: ons onwq awonw ownqa
- *
  * Return: fidels int the first
  */
 char **_tok(char *str, char on)
@@ -49,10 +47,8 @@ char **_tok(char *str, char on)
 
 /**
  * **tok_one - This for splits fidels into words
- *
  * @str: onw one oow qqwe nwq
  * @kae: ons onwq awonw ownqa
- *
  * Return: fidels int the first
  */
 
