@@ -2,11 +2,9 @@
 
 /**
  * nont - This for initialize a new environment laiable
- *
  * @info: onew onew opa onewq
  * @la: environment laiable onew
  * @value: environment laiable onewa
- *
  * Return: 1 this time for ewns
  */
 
