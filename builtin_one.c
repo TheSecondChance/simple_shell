@@ -2,7 +2,6 @@
 
 /**
  * _exit_shell - This for exit to shell
- *
  * Return: 1 in this time
  */
 int _exit_shell(info_t *info)
@@ -31,7 +30,6 @@ int _exit_shell(info_t *info)
 
 /**
  * _current - This for changes current directory of the process
- *
  * Return: 1 in this time
  */
 int _current(info_t *info)
