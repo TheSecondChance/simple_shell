@@ -2,10 +2,8 @@
 
 /**
  * _let_info - This for let info struct field
- *
  * @info: environment laiable onwwq
  * @let: lon environment laiable onwq
- *
  * Return: nothing this
  */
 void _let_info(info_t *info, int let)
@@ -34,7 +32,6 @@ void _let_info(info_t *info, int let)
 
 /**
  * _infoma - This for initialize
- *
  * @info: environment laiable onwwq
  * @av: lon environment laiable onwq
  * Return: mere in this time
@@ -67,7 +64,6 @@ void _infoma(info_t *info, char **av)
 
 /**
  * _fou - This for initialize info struct
- *
  * @info: environment laiable onwwq
  * Return: nothing in this time
  */
