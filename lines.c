@@ -5,7 +5,6 @@
  * @info: onw one oow qqwe nwq
  * @buf: ons onwq awonw ownqa
  * @meth: onew onne asdow
- *
  * Return: 1 this time for ewns
  *  * this for buffer
  * changin
@@ -53,7 +52,6 @@ ssize_t buffer_input(info_t *info, char **buf, size_t *meth)
 
 /**
  * buff_re - This for reads a buffer
- *
  * @info: onw one oow qqwe nwq
  * @buf: ons onwq awonw ownqa
  * @i: onew onne asdow
@@ -74,7 +72,6 @@ ssize_t buff_re(info_t *info, char *buf, size_t *i)
 /**
  * _handle_block - this for blocks ctrl-C
  * @nu_sig: de onew owaponke kone onwq
- *
  * Return: ntog this time for ewns
  */
 void _handle_block(__attribute__((unused)) int nu_sig)
@@ -85,11 +82,9 @@ void _handle_block(__attribute__((unused)) int nu_sig)
 }
 /**
  * ketay_mes - this for get the next line of input
- *
  * @info: onw one oow qqwe nwq bvxz
  * @amel: ons onwq awonw ownqa  waw
  * @length: onew onne asdow ytn
- *
  * Return: nothing ade sew newo
  */
 int ketay_mes(info_t *info, char **amel, size_t *length)
