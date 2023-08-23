@@ -1,7 +1,6 @@
 #include "shell.h"
 /**
  * _rep_str - rep string
- *
  * Return: 1 this time m
  */
 int _rep_str(char **old, char *new)
@@ -12,7 +11,6 @@ int _rep_str(char **old, char *new)
 }
 /**
  * _lis_his_buil - This for adds new entry
- *
  * Return: 0 in this time
  */
 int _lis_his_buil(info_t *info, char *buf, int coun_li)
@@ -30,7 +28,6 @@ int _lis_his_buil(info_t *info, char *buf, int coun_li)
 
 /**
  * add_node_end - adds a node to the end of the list
- *
  * Return: adis not my one a le onll
  */
 list_t *add_node_end(list_t **head, const char *str, int num)
