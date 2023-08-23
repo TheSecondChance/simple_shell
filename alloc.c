@@ -3,7 +3,7 @@
 /**
  * _calloc - This for realloc block of memory space
  *
- * Return: add the right time of aefn
+ * Return:  add the right time of aefn
  */
 void *_calloc(void *amel, unsigned int curr, unsigned int curr_size)
 {
