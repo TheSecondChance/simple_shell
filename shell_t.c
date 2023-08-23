@@ -5,9 +5,11 @@
  * @info: onew the last teog gagien
  * @kll: may nothing the worsting
  *
+ * @_fou: this four new
+ * @info: qont onwqr onwqa
  * Return: feed is ret now ase
  */
-int shell_he(info_t *info, char **kll)
+int shell_he(info_t *info, char **mesa)
 {
 	ssize_t r = 0;
 	int feed = 0;
@@ -21,7 +23,7 @@ int shell_he(info_t *info, char **kll)
 		r = get_input(info);
 		if (r != -1)
 		{
-			_infoma(info, kll);
+			_infoma(info, mesa);
 			feed = grab(info);
 			if (feed == -1)
 				grab_tza(info);
@@ -99,8 +101,8 @@ void grab_tza(info_t *info)
 		info->coun_li++;
 		info->ccount_flag = 0;
 	}
-	for (i = 0, k = 0; info->chec[i]; i++)
-		if (!_this_delim(info->chec[i], " \t\n"))
+	for (i = 0, k = 0; info->arg[i]; i++)
+		if (!_this_delim(info->arg[i], " \t\n"))
 			k++;
 	if (!k)
 		return;
@@ -116,7 +118,7 @@ void grab_tza(info_t *info)
 			 info->mesa[0][0] == '/') &&
 			_dete_com(info, info->mesa[0]))
 			ro_com(info);
-		else if (*(info->chec) != '\n')
+		else if (*(info->arg) != '\n')
 		{
 			info->mnlay = 127;
 			_shell_error(info, "not found\n");

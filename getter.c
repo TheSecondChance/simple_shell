@@ -16,7 +16,7 @@ void _let_info(info_t *info, int let)
 	if (let)
 	{
 		if (!info->str_cmd)
-			free(info->chec);
+			free(info->arg);
 		if (info->env)
 			free_list(&(info->env));
 		if (info->tarik)
@@ -44,15 +44,15 @@ void _infoma(info_t *info, char **av)
 	int i = 0;
 
 	info->tfi_de = av[0];
-	if (info->chec)
+	if (info->arg)
 	{
-		info->mesa = tok_one(info->chec, " \t");
+		info->mesa = tok_one(info->arg, " \t");
 		if (!info->mesa)
 		{
 			info->mesa = malloc(sizeof(char *) * 2);
 			if (info->mesa)
 			{
-				info->mesa[0] = _strdup(info->chec);
+				info->mesa[0] = _strdup(info->arg);
 				info->mesa[1] = NULL;
 			}
 		}
@@ -73,7 +73,7 @@ void _infoma(info_t *info, char **av)
  */
 void _fou(info_t *info)
 {
-	info->chec = NULL;
+	info->arg = NULL;
 	info->mesa = NULL;
 	info->mengee = NULL;
 	info->argc = 0;

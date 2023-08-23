@@ -141,7 +141,7 @@ ssize_t get_input(info_t *info)
 	static char *buf;
 	static size_t i, j, meth;
 	ssize_t r = 0;
-	char **buf_p = &(info->chec), *lia;
+	char **buf_p = &(info->arg), *lia;
 
 	_putchar(BU_EL);
 	r = buffer_input(info, &buf, &meth);
