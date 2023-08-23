@@ -2,10 +2,8 @@
 
 /**
  * bota - This for locate char str
- *
  * @s: tomnaay one of maew ther right way
  * @c: the way many mangae int theis
- *
  * Return: NULL this tiem senln
  */
 char *bota(char *s, char c)
@@ -20,11 +18,9 @@ char *bota(char *s, char c)
 
 /**
  * huletm - This for copies str
- *
  * @dest: create the many enwon
  * @src: to what noting in thsi
  * @kut: can not to many view this right
- *
  * Return: str this tiem senln
  */
 char *huletm(char *dest, char *src, int kut)
@@ -52,11 +48,9 @@ char *huletm(char *dest, char *src, int kut)
 
 /**
  * _fihuet - This for concate two fidels
- *
  * @dest: i tehe man pnoow manew onwet
  * @src: to change to man neaon ownt
  * @kut: thsi foe kut many get ther rigt
- *
  * Return: this tiem senln
  */
 char *_fihuet(char *dest, char *src, int kut)
