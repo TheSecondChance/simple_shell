@@ -2,7 +2,6 @@
 
 /**
  * _let_buff - This for free pointer and NULL the address
- *
  * Return: 0 in this time mae oneaen
  */
 int _let_buff(void **mainp)
@@ -17,7 +16,6 @@ int _let_buff(void **mainp)
 }
 /**
  * grab - This for finds a builtin cmd
- *
  * Return: retu man one wote wroen
  */
 int grab(info_t *info)
