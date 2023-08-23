@@ -97,10 +97,10 @@ typedef struct kargument
 } info_t;
 
 /* MEREJA MASJEMER*/
-#define MASGEMER                                                                \
-	{                                                                           \
-		NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
-			0, 0, 0                                                             \
+#define MASGEMER                                                                             \
+	{                                                                                    \
+		NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL,      \
+			0, 0, 0                                                              \
 	}
 
 /**
@@ -189,5 +189,5 @@ int _enviro(info_t *);
 int nont(info_t *, char *, char *);
 char **_botayge(info_t *);
 int rem_env(info_t *, char *);
-
+void _fou(info_t *);
 #endif

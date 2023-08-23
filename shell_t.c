@@ -5,9 +5,11 @@
  * @info: onew the last teog gagien
  * @kll: may nothing the worsting
  *
+ * @_fou: this four new
+ * @info: qont onwqr onwqa
  * Return: feed is ret now ase
  */
-int shell_he(info_t *info, char **kll)
+int shell_he(info_t *info, char **mesa)
 {
 	ssize_t r = 0;
 	int feed = 0;
@@ -21,7 +23,7 @@ int shell_he(info_t *info, char **kll)
 		r = get_input(info);
 		if (r != -1)
 		{
-			_infoma(info, kll);
+			_infoma(info, mesa);
 			feed = grab(info);
 			if (feed == -1)
 				grab_tza(info);
